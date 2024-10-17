@@ -1,0 +1,18 @@
+.container{padding: 40px 0px;
+.head {
+  @include flex(flex,space-between,center, row);
+  width: 100%;
+}
+.head-right {
+    @include flex(flex, center, center, row);}
+    .head-right a {
+        font-size: 25px;
+       margin: 0px 10px;
+       color: black;
+       padding: 10px;
+      }
+      .head-right a:hover{background-color: rgb(186, 182, 182);
+    padding: 10px;}
+      .head-left h1{font-size: 30px;
+    color: rgb(186, 182, 182) ;}
+}

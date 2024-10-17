@@ -1,0 +1,164 @@
+#hero {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic2.jpg");
+  height: 80vh;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  @include flex(flex, space-between, center, row);
+  .hero-card {
+    background-color: white;
+    height: 50vh;
+    width: 37%;
+    margin: 100px 0px;
+  }
+
+  .hero-card h1 {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 40px;
+  }
+
+  .hero-card p {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 20px;
+  }
+
+  .hero-card a {
+    color: black;
+  }
+
+  .btn {
+    margin: 25px 43px;
+    font-size: 20px;
+    background-color: peru;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  .btn:hover {
+    background-color: rgb(102, 55, 8);
+  }
+}
+#getaway h1 {
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 80px
+}
+
+
+
+  .p a {
+    color: black;
+    text-decoration:dashed;
+  }
+
+.container {
+  @include flex(flex, space-between, center, row);
+  flex-wrap: wrap;
+}
+.getaway-image1 {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/6803.jpg");
+  background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.getaway-image {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/14.jpg");background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.getaway-image2 {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/579.jpg");background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.getaway-image3{
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/y8.jpg");background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.getaway-image4 {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/45677.jpg");background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.getaway-image5 {
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/6890.jpg");background-size: cover;
+  width: 30%;
+  height: 50vh;
+  margin: 20px 0px;
+}
+
+.div{height: 40vh;}
+
+#getaway p{width: 90%;
+margin: 0 auto;
+color: white;
+font-size: 20px;}
+
+#getaway h2{width: 90%;
+    margin: 0 auto;
+color: white;
+font-size: 23px;}
+
+
+.p {
+    width: 100%;
+text-align: center;
+    font-size: 20px;
+    color: black !important;
+   
+  }
+
+  #Season{background-color: black;
+height: 70vh;
+padding: 30px;
+margin-top: 30px;}
+
+#Season h1{
+font-size: 70px;
+text-align: center;
+color: white;}
+
+#Season p{font-size: 20px;
+margin: 0 auto;
+color: white;
+width: 50%;}
+
+  .season-image{background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/r42.jpg");
+    background-size: cover;
+width: 30%;
+height: 40vh;
+border:5px solid white}
+
+  .season-image1{background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/6783.jpg");width: 30%;
+    background-size: cover;
+    height: 40vh;
+    border:5px solid white
+}
+
+  .season-image2{background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic44.jpg");width: 30%;
+    background-size: cover;
+    height: 40vh;
+    border:5px solid white
+}
+
+.p1{color: white;
+text-align: center;}
+
+.p1 a{color: white;}
+
+  
